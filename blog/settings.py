@@ -28,7 +28,7 @@ TEMPLATES_DIRS = os.path.join(BASE_DIR,'templates')
 SECRET_KEY = 'e)=c4ae+om#3g97)-%d9$m0x4@g3&+z9$%44v(o=ihy1esf*qn'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
