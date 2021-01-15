@@ -5,7 +5,6 @@ from django.views import generic
 from .models import Post
 
 from .forms import PostForm
-from django.forms import modelformset_factory
 
 class PostList(generic.ListView):
     paginate_by = 4
