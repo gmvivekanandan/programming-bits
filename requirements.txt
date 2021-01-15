@@ -1,4 +1,13 @@
-django
-gunicorn
+asgiref
+dj-database-url
+Django
 django-heroku
 django-summernote
+gunicorn
+pip
+psycopg2
+pytz
+setuptools
+sqlparse
+wheel
+whitenoise        
