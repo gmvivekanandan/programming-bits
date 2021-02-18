@@ -1,13 +1,22 @@
-{% extends 'base.html' %} {% block content %}
+{% extends 'base.html' %} 
+
+{% block content %}
 
 <div class="container">
   <div class="row">
     <div class="col s12">
       <div class="card-content">
         <h1>{% block title %} {{ object.title }} {% endblock title %}</h1>
-        <p class=" text-muted">{{ post.author }} | {{ post.created_on }}</p>
+        <p class=" text-muted">{{ post.created_on }}</p>
         <p class="card-text ">{{ object.content | safe }}</p>
       </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col s12 center">
+      <a href="{% url 'home' %}"><i class="fas fa-angle-left black-text" style="font-size: 2rem;"></i></a>
     </div>
   </div>
 </div>
